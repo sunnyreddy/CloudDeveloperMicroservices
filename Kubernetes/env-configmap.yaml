@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-sai-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: helloworld
+  POSTGRESS_DATABASE: udagramsaidev
+  POSTGRESS_HOST: udagramsaidev.cvkbne6vsp1q.us-east-1.rds.amazonaws.com
+  POSTGRESS_USERNAME: udagramsaidev
+  POSTGRESS_PASSWORD: udagramsaidev
+  URL: http://localhost:8100
+metadata:
+  name: env-config
